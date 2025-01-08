@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html >
+<head>
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="https://r.mobirisesite.com/1070437/assets/images/photo-1527873722743-67759f085-h_m5n4ru86.jpg" type="image/x-icon">
+  <meta name="description" content="Scopri il nostro servizio di trasporto sostenibile e innovativo, pianifica il tuo viaggio con facilità e esplora il turismo locale con la nostra app.">
+  <title>Viaggi Sostenibili</title>
+  <link rel="stylesheet" href="https://r.mobirisesite.com/1070437/assets/web/assets/mobirise-icons2/mobirise2.css?rnd=1736298691393">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/1070437/assets/bootstrap/css/bootstrap.min.css?rnd=1736298691393">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/1070437/assets/bootstrap/css/bootstrap-grid.min.css?rnd=1736298691393">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/1070437/assets/bootstrap/css/bootstrap-reboot.min.css?rnd=1736298691393">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/1070437/assets/dropdown/css/style.css?rnd=1736298691393">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/1070437/assets/smart-cart/minicart-theme.css?rnd=1736298691393">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/1070437/assets/socicon/css/styles.css?rnd=1736298691393">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/1070437/assets/theme/css/style.css?rnd=1736298691393">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/1070437/assets/recaptcha.css?rnd=1736298691393">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap&display=swap"></noscript>
+  <link rel="stylesheet" href="https://r.mobirisesite.com/1070437/assets/css/mbr-additional.css?rnd=1736298691393" type="text/css">
+  
+  
+  
+  
+
+
+<style>
+.navbar-fixed-top {
+  top: auto;
+}
+#mobiriseBanner.container-banner {
+  height: 8rem;
+  opacity: 1;
+  -webkit-animation: 16s linear animationHeight;
+  -moz-animation: 16s linear animationHeight;
+    -o-animation: 16s linear animationHeight;
+       animation: 16s linear animationHeight;
+       transition: all  0.5s;
+}
+#mobiriseBanner.container-banner.container-banner-closing {
+  pointer-events: none;
+  height: 0;
+  opacity: 0;
+  -webkit-animation: 0.5s linear animationClosing;
+  -moz-animation:  0.5s linear animationClosing;
+    -o-animation:  0.5s linear animationClosing;
+       animation:  0.5s linear animationClosing;
+}
+#mobiriseBanner .banner {
+  min-height: 8rem;
+  position:fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  padding: 10px;
+  opacity:1;
+  -webkit-animation: 16s linear animationBanner;
+  -moz-animation: 16s linear animationBanner;
+    -o-animation: 16s linear animationBanner;
+       animation: 16s linear animationBanner;
+  z-index: 1031;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#mobiriseBanner .banner p {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  animation: none;
+  visibility: visible;
+}
+#mobiriseBanner .buy-license {
+  text-decoration: underline;
+}
+#mobiriseBanner .banner .btn {
+  margin: 0.3rem 0.5rem;
+  animation: none;
+  visibility: visible;
+}
+.navbar.opened {
+    z-index: 1032;
+}
+@-webkit-keyframes animationBanner { 0% { opacity: 0; top: -8rem; } 94% { opacity: 0; top: -8rem; } 100% { opacity: 1; top: 0; } }
+@-moz-keyframes animationBanner { 0% { opacity: 0; top: -8rem; } 94% { opacity: 0; top: -8rem; } 100% { opacity: 1; top: 0; } }
+@-o-keyframes animationBanner { 0% { opacity: 0; top: -8rem; } 94% { opacity: 0; top: -8rem; } 100% { opacity: 1; top: 0; } }
+   @keyframes animationBanner { 0% { opacity: 0; top: -8rem; } 94% { opacity: 0; top: -8rem; } 100% { opacity: 1; top: 0; } }
+@-webkit-keyframes animationHeight { 0% { height: 0; } 94% { height: 0; } 100% { height: 8rem; } }
+@-moz-keyframes animationHeight { 0% { height: 0; } 94% { height: 0; } 100% { height: 8rem; } }
+@-o-keyframes animationHeight { 0% { height: 0; } 94% { height: 0; } 100% { height: 8rem; } }
+   @keyframes animationHeight { 0% { height: 0; } 94% { height: 0; } 100% { height: 8rem; } }
+
+@-webkit-keyframes animationClosing { 0% { height: 8rem; opacity: 1; } 30% { height: 8rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+@-moz-keyframes animationClosing { 0% { height: 8rem; opacity: 1; } 30% { height: 8rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+@-o-keyframes animationClosing { 0% { height: 8rem; opacity: 1; } 30% { height: 8rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+@keyframes animationClosing { 0% { height: 8rem; opacity: 1; } 30% { height: 8rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+
+@media(max-width: 767px) {
+  #mobiriseBanner.container-banner {
+    height: 12rem;
+  }
+  #mobiriseBanner .banner {
+    min-height: 12rem;
+  }
+  @-webkit-keyframes animationBanner { 0% { opacity: 0; top: -12rem; } 94% { opacity: 0; top: -12rem; } 100% { opacity: 1; top: 0; } }
+  @-moz-keyframes animationBanner { 0% { opacity: 0; top: -12rem; } 94% { opacity: 0; top: -12rem; } 100% { opacity: 1; top: 0; } }
+  @-o-keyframes animationBanner { 0% { opacity: 0; top: -12rem; } 94% { opacity: 0; top: -12rem; } 100% { opacity: 1; top: 0; } }
+    @keyframes animationBanner { 0% { opacity: 0; top: -12rem; } 94% { opacity: 0; top: -12rem; } 100% { opacity: 1; top: 0; } }
+  @-webkit-keyframes animationHeight { 0% { height: 0; } 94% { height: 0; } 100% { height: 12rem; } }
+  @-moz-keyframes animationHeight { 0% { height: 0; } 94% { height: 0; } 100% { height: 12rem; } }
+  @-o-keyframes animationHeight { 0% { height: 0; } 94% { height: 0; } 100% { height: 12rem; } }
+    @keyframes animationHeight { 0% { height: 0; } 94% { height: 0; } 100% { height: 12rem; } }
+
+  @-webkit-keyframes animationClosing { 0% { height: 12rem; opacity: 1; } 30% { height: 12rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+  @-moz-keyframes animationClosing { 0% { height: 12rem; opacity: 1; } 30% { height: 12rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+  @-o-keyframes animationClosing { 0% { height: 12rem; opacity: 1; } 30% { height: 12rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+  @keyframes animationClosing { 0% { height: 12rem; opacity: 1; } 30% { height: 12rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+}
+</style>
+</head>
+<body>
+  
+  <section data-bs-version="5.1" class="menu menu2 cid-uzf2mxgh6r" once="menu" id="menu-3-uzf2mxgh6r">
+    
+    <nav class="navbar navbar-dropdown navbar-expand-lg">
+        <div class="container-fluid">
+            <div class="navbar-brand">
+                <span class="navbar-logo">
+                    <a href="#">
+                        <img src="https://r.mobirisesite.com/1070437/assets/images/photo-1527873722743-67759f085-h_m5n4ru86.jpg" alt="">
+                    </a>
+                </span>
+                <span class="navbar-caption-wrap"><a class="navbar-caption text-black display-4" href="#">Regionale</a></span>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black show display-4" href="#" aria-expanded="false">Pianifica Viaggio</a></li>
+                    <li class="nav-item"><a class="nav-link link text-black display-4" href="#">App Mobile</a></li>
+                    <li class="nav-item"><a class="nav-link link text-black display-4" href="#">Bike Sharing</a>
+                    </li></ul>
+                <div class="navbar-buttons mbr-section-btn"><a class="btn btn-white display-4" href="#">Scopri Ora</a></div>
+            </div>
+        </div>
+    </nav>
+</section>
+
+<section data-bs-version="5.1" class="header01 immersem5 cid-uzf2mxgRcW" id="hero-2-uzf2mxgRcW">
+    
+
+    
+    
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="content-wrapper">
+                    <div class="image-wrapper">
+                        <img src="https://r.mobirisesite.com/1070437/assets/images/g0523b01e63ee6547b022bf9b9cc0-h_m5n5oz2r.jpg" alt="">
+                    </div>
+                    <div class="title-wrapper">
+                        <p class="mbr-desc mbr-fonts-style display-4">Benvenuti</p>
+                        <h1 class="mbr-section-title mbr-fonts-style display-1">
+                            <strong>Regionale</strong></h1>
+                    </div>
+                    <div class="content-wrap">
+                        <a href="#" class="icon-wrapper">
+                            <span class="mbr-iconfont mobi-mbri-search mobi-mbri"></span>
+                        </a>
+                        <p class="mbr-name mbr-fonts-style display-7">
+                            <strong>Viaggia in modo intelligente, sostenibile e innovativo!</strong>
+                        </p>
+                        <p class="mbr-role mbr-fonts-style display-4">Scopri il futuro dei trasporti con noi!</p>
+                        <div class="mbr-section-btn"><a class="btn btn-white display-4" href="#">Inizia Qui</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="slider02 mbr-embla cid-uzf2mxh8ar" id="team-2-uzf2mxh8ar">
+    
+    
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="content-wrapper">
+                    <div class="content-wrap">
+                        <p class="mbr-desc mbr-fonts-style display-4"></p>
+                        <h2 class="mbr-section-title mbr-fonts-style display-2">
+                            <strong>Raggiungi ogni meta</strong></h2>
+                        <div class="text-wrapper">
+                            <p class="mbr-text mbr-fonts-style display-4"><em>“Immaginiamo un’Italia dove il treno sia il modo più naturale, piacevole e responsabile per scoprire, esplorare e vivere pienamente il territorio.”</em></p>
+                        </div>
+                        <div class="mbr-section-btn"><a class="btn btn-white display-4" href="#">
+                                Start Now
+                            </a></div>
+                    </div>
+                    <div class="embla" data-skip-snaps="true" data-align="center" data-contain-scroll="trimSnaps" data-loop="true" data-auto-play-interval="5" data-draggable="true">
+                        <div class="embla__viewport">
+                            <div class="embla__container">
+                                <div class="embla__slide slider-image item" style="margin-left: 1rem; margin-right: 1rem;">
+                                    <div class="slide-content">
+                                        <div class="item-wrapper">
+                                            <div class="item-img">
+                                                <img src="https://r.mobirisesite.com/1070437/assets/images/ge1648a1f9518f9ea7205ebf6c31f-h_m5n5sw6x.jpg" alt="">
+                                            </div>
+                                            <div class="item-content">
+                                                <div class="item-desc">
+                                                    
+                                                    <ul class="list mbr-fonts-style display-4"></ul>
+                                                </div>
+                                                <div class="name-wrapper">
+                                                    <div class="name-wrap">
+                                                        <h4 class="item-name mbr-fonts-style display-5">
+                                                            <strong>Roma</strong></h4>
+                                                        <p class="item-role mbr-fonts-style display-4">Scopri le migliori tappe in un viaggio a Roma</p>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="embla__slide slider-image item" style="margin-left: 1rem; margin-right: 1rem;">
+                                    <div class="slide-content">
+                                        <div class="item-wrapper">
+                                            <div class="item-img">
+                                                <img src="https://r.mobirisesite.com/1070437/assets/images/gf52707464b3e71540d8d3218bf00-h_m5n5tf4o.jpg" alt="">
+                                            </div>
+                                            <div class="item-content">
+                                                <div class="item-desc">
+                                                    
+                                                    <ul class="list mbr-fonts-style display-4"></ul>
+                                                </div>
+                                                <div class="name-wrapper">
+                                                    <div class="name-wrap">
+                                                        <h4 class="item-name mbr-fonts-style display-5"><strong>Milano</strong></h4>
+                                                        <p class="item-role mbr-fonts-style display-4">Scopri le migliori tappe in un viaggio a Milano</p>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="embla__slide slider-image item" style="margin-left: 1rem; margin-right: 1rem;">
+                                    <div class="slide-content">
+                                        <div class="item-wrapper">
+                                            <div class="item-img">
+                                                <img src="https://r.mobirisesite.com/1070437/assets/images/g7905b9991d2e461b42a57c451aea-h_m5n5u1l4.jpg" alt="">
+                                            </div>
+                                            <div class="item-content">
+                                                <div class="item-desc">
+                                                    
+                                                    <ul class="list mbr-fonts-style display-4"></ul>
+                                                </div>
+                                                <div class="name-wrapper">
+                                                    <div class="name-wrap">
+                                                        <h4 class="item-name mbr-fonts-style display-5">
+                                                            <strong>Napoli</strong></h4>
+                                                        <p class="item-role mbr-fonts-style display-4">Scopri le migliori tappe in un viaggio a Napoli</p>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="embla__slide slider-image item" style="margin-left: 1rem; margin-right: 1rem;">
+                                    <div class="slide-content">
+                                        <div class="item-wrapper">
+                                            <div class="item-img">
+                                                <img src="https://r.mobirisesite.com/1070437/assets/images/g3727bb88157395185ff884607489-h_m5n5uf2o.jpg" alt="">
+                                            </div>
+                                            <div class="item-content">
+                                                <div class="item-desc">
+                                                    
+                                                    <ul class="list mbr-fonts-style display-4"></ul>
+                                                </div>
+                                                <div class="name-wrapper">
+                                                    <div class="name-wrap">
+                                                        <h4 class="item-name mbr-fonts-style display-5">
+                                                            <strong>Firenze</strong></h4>
+                                                        <p class="item-role mbr-fonts-style display-4">Scopri le migliori tappe in un viaggio a Firenze</p>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="embla__button embla__button--prev">
+                            <span class="mbr-iconfont mobi-mbri-left mobi-mbri" aria-hidden="true"></span>
+                            <span class="sr-only visually-hidden visually-hidden visually-hidden visually-hidden">Previous</span>
+                        </button>
+                        <button class="embla__button embla__button--next">
+                            <span class="mbr-iconfont mobi-mbri-right mobi-mbri" aria-hidden="true"></span>
+                            <span class="sr-only visually-hidden visually-hidden visually-hidden visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="slider05 mbr-embla cid-uzf2mxhdln" id="slider-2-uzf2mxhdln">
+    
+    
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="content-wrapper">
+                    <div class="content-wrap">
+                        <p class="mbr-desc mbr-fonts-style display-4">Responsabile</p>
+                        <div class="title-wrapper">
+                            <h2 class="mbr-section-title mbr-fonts-style display-2">
+                                <strong>L'alternativa green per i tuoi viaggi</strong></h2>
+                            <div class="text-wrapper">
+                                <p class="mbr-text mbr-fonts-style display-4">Scegli Regionale per migliorare la tua quotidianità e quella altrui</p>
+                            </div>
+                        </div>
+                        <div class="mbr-section-btn"><a class="btn btn-white display-4" href="#">Scopri Ora</a></div>
+                    </div>
+                    <div class="embla" data-skip-snaps="true" data-align="center" data-contain-scroll="trimSnaps" data-loop="true" data-auto-play-interval="5" data-draggable="true">
+                        <div class="embla__viewport">
+                            <div class="embla__container">
+                                <div class="embla__slide slider-image item" style="margin-left: 1rem; margin-right: 1rem;">
+                                    <div class="slide-content">
+                                        <div class="item-wrapper">
+                                            <div class="item-img">
+                                                <img src="https://r.mobirisesite.com/1070437/assets/images/photo-1507388412350-cb43abdebced.jpeg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="embla__slide slider-image item" style="margin-left: 1rem; margin-right: 1rem;">
+                                    <div class="slide-content">
+                                        <div class="item-wrapper">
+                                            <div class="item-img">
+                                                <img src="https://r.mobirisesite.com/1070437/assets/images/photo-1471879832106-c7ab9e0cee23.jpeg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="embla__slide slider-image item" style="margin-left: 1rem; margin-right: 1rem;">
+                                    <div class="slide-content">
+                                        <div class="item-wrapper">
+                                            <div class="item-img">
+                                                <img src="https://r.mobirisesite.com/1070437/assets/images/photo-1520009061071-659eaf168151.jpeg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="embla__button embla__button--prev">
+                            <span class="mbr-iconfont mobi-mbri-left mobi-mbri" aria-hidden="true"></span>
+                            <span class="sr-only visually-hidden visually-hidden visually-hidden visually-hidden">Previous</span>
+                        </button>
+                        <button class="embla__button embla__button--next">
+                            <span class="mbr-iconfont mobi-mbri-right mobi-mbri" aria-hidden="true"></span>
+                            <span class="sr-only visually-hidden visually-hidden visually-hidden visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="video01 immersem5 cid-uzf2mxiaRX" id="video-1-uzf2mxiaRX">
+    
+
+    
+    
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="content-wrapper">
+                    <div class="content-wrap">
+                        <p class="mbr-desc mbr-fonts-style display-4">Guarda</p>
+                        <h2 class="mbr-section-title mbr-fonts-style display-2">
+                            <strong>Il Nostro Impegno</strong>
+                        </h2>
+                        <div class="text-wrapper">
+                            <p class="mbr-text mbr-fonts-style display-4"><em>“Vogliamo rendere ogni viaggio in treno un’esperienza unica e arricchente, accessibile a tutti, che combina semplicità, sostenibilità e comodità, migliorando la qualità della vita e contribuendo alla salvaguardia del pianeta.”</em><br></p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="mbr-media show-modal align-center" data-modal=".modalWindow">
+                            <div class="img-wrapper">
+                                <img src="https://r.mobirisesite.com/1070437/assets/images/photo-1465146344425-f00d5f5c8-h_m5n5zsxp.jpg" alt=""></div>
+                            <div class="icon-wrap">
+                                <a href="https://youtu.be/D07xs1Avz8k?si=Ij4AhfjtMcFnBzlv" target="_blank"><span class="mbr-iconfont mobi-mbri-play mobi-mbri"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="features05 immersem5 cid-uzf2mxjtXB" id="news-3-uzf2mxjtXB">
+    
+
+    
+    
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="item features-image col-12 col-lg-6">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <img src="https://r.mobirisesite.com/1070437/assets/images/photo-1505820013142-f86a3439c-h_m5n66bu2.jpg" alt="">
+                    </div>
+                    <div class="item-content">
+                        <div class="item-desc">
+                            <div class="icon-wrapper">
+                                <span class="mbr-iconfont mobi-mbri-user-2 mobi-mbri"></span>
+                            </div>
+                            <ul class="list mbr-fonts-style display-4">
+                                <li class="item-wrap">Estetica</li>
+                                <li class="item-wrap">Immagine</li>
+                            </ul>
+                        </div>
+                        <div class="title-wrapper">
+                            <div class="title-wrap">
+                                <h4 class="item-title mbr-fonts-style display-5">
+                                    <strong>Wrapping dei treni con pellicola antigraffito</strong></h4>
+                                <p class="item-text mbr-fonts-style display-4"></p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div><div class="item features-image col-12 col-lg-6">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <img src="https://r.mobirisesite.com/1070437/assets/images/photo-1495584816685-4bdbf1b50-h_m5n66zhn.jpg" alt="" data-slide-to="1" data-bs-slide-to="1">
+                    </div>
+                    <div class="item-content">
+                        <div class="item-desc">
+                            <div class="icon-wrapper">
+                                <span class="mbr-iconfont mobi-mbri-user-2 mobi-mbri"></span>
+                            </div>
+                            <ul class="list mbr-fonts-style display-4">
+                                <li class="item-wrap">Sicurezza</li>
+                                <li class="item-wrap">Tranquillità</li>
+                            </ul>
+                        </div>
+                        <div class="title-wrapper">
+                            <div class="title-wrap">
+                                <h4 class="item-title mbr-fonts-style display-5">
+                                    <strong>Servizio di sicurezza a bordo</strong></h4>
+                                <p class="item-text mbr-fonts-style display-4"></p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div><div class="item features-image col-12 col-lg-6">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <img src="https://r.mobirisesite.com/1070437/assets/images/photo-1533221498444-b1aa65fcc-h_m5n67uuu.jpg" alt="" data-slide-to="2" data-bs-slide-to="2">
+                    </div>
+                    <div class="item-content">
+                        <div class="item-desc">
+                            <div class="icon-wrapper">
+                                <span class="mbr-iconfont mobi-mbri-user-2 mobi-mbri"></span>
+                            </div>
+                            <ul class="list mbr-fonts-style display-4">
+                                <li class="item-wrap">App Mobile</li>
+                                <li class="item-wrap">Digitale</li>
+                            </ul>
+                        </div>
+                        <div class="title-wrapper">
+                            <div class="title-wrap">
+                                <h4 class="item-title mbr-fonts-style display-5">
+                                    <strong>La Nostra App Mobile</strong>
+                                </h4>
+                                <p class="item-text mbr-fonts-style display-4"></p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div><div class="item features-image col-12 col-lg-6">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <img src="https://r.mobirisesite.com/1070437/assets/images/gf67285150cc356194db64a34ed65-h_m5n6m3ph.jpg" alt="" data-slide-to="3" data-bs-slide-to="3">
+                    </div>
+                    <div class="item-content">
+                        <div class="item-desc">
+                            <div class="icon-wrapper">
+                                <span class="mbr-iconfont mobi-mbri-user-2 mobi-mbri"></span>
+                            </div>
+                            <ul class="list mbr-fonts-style display-4">
+                                <li class="item-wrap">Novità</li>
+                                <li class="item-wrap">Comfort</li>
+                            </ul>
+                        </div>
+                        <div class="title-wrapper">
+                            <div class="title-wrap">
+                                <h4 class="item-title mbr-fonts-style display-5">
+                                    <strong>Prenotazione del posto</strong></h4>
+                                <p class="item-text mbr-fonts-style display-4"></p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="features05 immersem5 cid-uzf2mxk66o" id="news-2-uzf2mxk66o">
+    
+
+    
+    
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="item features-image col-12 col-lg-6">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <img src="https://r.mobirisesite.com/1070437/assets/images/g5756a0a4fdcae05a5195b07be9eb-h_m5n6b37e.jpg" alt="">
+                    </div>
+                    <div class="item-content">
+                        <div class="item-desc">
+                            <div class="icon-wrapper">
+                                <span class="mbr-iconfont mobi-mbri-user-2 mobi-mbri"></span>
+                            </div>
+                            <ul class="list mbr-fonts-style display-4">
+                                <li class="item-wrap">Novità</li>
+                                <li class="item-wrap">Aggiornamenti</li>
+                            </ul>
+                        </div>
+                        <div class="title-wrapper">
+                            <div class="title-wrap">
+                                <h4 class="item-title mbr-fonts-style display-5">
+                                    <strong>Nuove Iniziative Sostenibili</strong>
+                                </h4>
+                                <p class="item-text mbr-fonts-style display-4"></p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item features-image col-12 col-lg-6">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <img src="https://r.mobirisesite.com/1070437/assets/images/photo-1483206048520-2321c1a5f-h_m5n6brlq.jpg" data-slide-to="1" data-bs-slide-to="1" alt="">
+                    </div>
+                    <div class="item-content">
+                        <div class="item-desc">
+                            <div class="icon-wrapper">
+                                <span class="mbr-iconfont mobi-mbri-user-2 mobi-mbri"></span>
+                            </div>
+                            <ul class="list mbr-fonts-style display-4">
+                                <li class="item-wrap">Intermodalità</li>
+                                <li class="item-wrap">Bici</li>
+                            </ul>
+                        </div>
+                        <div class="title-wrapper">
+                            <div class="title-wrap">
+                                <h4 class="item-title mbr-fonts-style display-5">
+                                    <strong>Bike-sharing</strong></h4>
+                                <p class="item-text mbr-fonts-style display-4"></p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="list01 immersem5 cid-uzf2mxkvOG" id="steps-1-uzf2mxkvOG">
+    
+
+    
+    
+
+    <div class="container-fluid">
+       
+            
+                <div class="content-wrapper">
+                    <div class="row justify-content-center">
+                        <div class="col-12">
+                    <p class="mbr-desc mbr-fonts-style display-4">Pianifica Viaggio</p>
+                    <div class="title-wrapper">
+                        <h2 class="mbr-section-title mbr-fonts-style display-2">
+                            <strong>Tre Semplici Passi</strong>
+                        </h2>
+                    </div>
+                    <div class="mbr-section-btn"><a class="btn btn-primary display-4" href="#">Inizia Ora</a></div>
+                            </div>
+                    </div>
+                    <div class="items-wrapper">
+                        <div class="item features-without-image item-mb">
+                            <div class="item-wrapper">
+                                <div class="card-box">
+                                    <p class="card-desc mbr-fonts-style display-4"></p>
+                                    <div class="title-wrap">
+                                        <h4 class="card-title mbr-fonts-style display-5">
+                                           <strong>Scegli la tua destinazione preferita.</strong>
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item features-without-image item-mb">
+                            <div class="item-wrapper">
+                                <div class="card-box">
+                                    <p class="card-desc mbr-fonts-style display-4"></p>
+                                    <div class="title-wrap">
+                                        <h4 class="card-title mbr-fonts-style display-5">
+                                            <strong>Controlla le opzioni di viaggio disponibili.</strong>
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item features-without-image item-mb">
+                            <div class="item-wrapper">
+                                <div class="card-box">
+                                    <p class="card-desc mbr-fonts-style display-4"></p>
+                                    <div class="title-wrap">
+                                        <h4 class="card-title mbr-fonts-style display-5">
+                                            <strong>Parti e goditi il panorama!</strong>
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+</section>
+
+<section data-bs-version="5.1" class="list03 immersem5 cid-uzf2mxkwOT" id="map-1-uzf2mxkwOT">
+    
+    
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="content-wrapper">
+                    <div class="content-wrap">
+                        <p class="mbr-desc mbr-fonts-style display-4">Mappa Interattiva</p>
+                        <h2 class="mbr-section-title mbr-fonts-style display-2"><strong>Esplora il Territorio</strong></h2>
+                    </div>
+                   
+                        <div class="google-map"><iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCt1265A4qvZy9HKUeA8J15AOC4SrCyZe4&amp;q=Rome%20Italy" allowfullscreen=""></iframe></div>
+                        
+                           
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="features07 immersem5 cid-uzf2mxoySf" id="news-1-uzf2mxoySf">
+    
+
+    
+    
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 item">
+                <div class="content-wrapper">
+                    <p class="mbr-desc mbr-fonts-style display-4">Ultime Notizie</p>
+                    <h2 class="mbr-section-title mbr-fonts-style display-2">
+                        <strong>Rimanere Aggiornati</strong>
+                    </h2>
+                    <div class="text-wrapper">
+                        <p class="mbr-text mbr-fonts-style display-4">Scopri le ultime novità sul nostro servizio e sugli eventi in programma. Non perdere l'occasione di viaggiare in modo sostenibile!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item features-image col-12 col-lg-4">
+                <a href="#">
+                    <div class="item-wrapper">
+                        <div class="item-img">
+                            <img src="https://r.mobirisesite.com/1070437/assets/images/ga7e2e3ab9377c5e69474b4c03074-h_m5n6j3lp.jpg" alt="">
+                        </div>
+                        <div class="item-content">
+                            <h4 class="card-title mbr-fonts-style display-7">
+                                <strong>Novità App</strong>
+                            </h4>
+                            <p class="card-desc mbr-fonts-style display-4">Scopri le funzionalità.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="item features-image col-12 col-lg-4">
+                <a href="#">
+                    <div class="item-wrapper">
+                        <div class="item-img">
+                            <img src="https://r.mobirisesite.com/1070437/assets/images/g075b74fdd7cee5c85ad94d6b6b1c-h_m5n6ik9y.png" alt="">
+                        </div>
+                        <div class="item-content">
+                            <h4 class="card-title mbr-fonts-style display-7">
+                                <strong>Eventi Locali</strong>
+                            </h4>
+                            <p class="card-desc mbr-fonts-style display-4">Partecipa e divertiti!</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="item features-image col-12 col-lg-4">
+                <a href="#">
+                    <div class="item-wrapper">
+                        <div class="item-img">
+                            <img src="https://r.mobirisesite.com/1070437/assets/images/gd15cb2592205ee45ec91e9b091a0-h_m5n6jtm5.jpg" alt="">
+                        </div>
+                        <div class="item-content">
+                            <h4 class="card-title mbr-fonts-style display-7">
+                                <strong>Sostenibilità</strong>
+                            </h4>
+                            <p class="card-desc mbr-fonts-style display-4">Il nostro impegno per il pianeta.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="list03 immersem5 cid-uzf2mxrGzi" id="faq-1-uzf2mxrGzi">
+    
+
+    
+    
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="content-wrapper">
+                    <div class="content-wrap">
+                        <p class="mbr-desc mbr-fonts-style display-4">Domande Frequenti</p>
+                        <h2 class="mbr-section-title mbr-fonts-style display-2">
+                            <strong>Hai Domande?</strong>
+                        </h2>
+                    </div>
+                    <div id="bootstrap-accordion_25" class="panel-group accordionStyles accordion" role="tablist" aria-multiselectable="true">
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingOne">
+                                <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse1_25" aria-expanded="false" aria-controls="collapse1">
+                                    <h4 class="panel-title-edit mbr-fonts-style display-5">
+                                        <strong>Come posso scaricare l'app?</strong>
+                                    </h4>
+                                    <span class="sign mbr-iconfont mobi-mbri-plus mobi-mbri"></span>
+                                </a>
+                            </div>
+                            <div id="collapse1_25" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_25">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text display-4">Visita il nostro sito e clicca sul link dell'app!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingTwo">
+                                <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse2_25" aria-expanded="false" aria-controls="collapse2">
+                                    <h4 class="panel-title-edit mbr-fonts-style display-5">
+                                        <strong>Ci sono opzioni di bike-sharing?</strong>
+                                    </h4>
+                                    <span class="sign mbr-iconfont mobi-mbri-plus mobi-mbri"></span>
+                                </a>
+                            </div>
+                            <div id="collapse2_25" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_25">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text display-4">Certo! Puoi noleggiare una bici in vari punti!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingThree">
+                                <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse3_25" aria-expanded="false" aria-controls="collapse3">
+                                    <h4 class="panel-title-edit mbr-fonts-style display-5">
+                                        <strong>Quali sono i percorsi panoramici?</strong>
+                                    </h4>
+                                    <span class="sign mbr-iconfont mobi-mbri-plus mobi-mbri"></span>
+                                </a>
+                            </div>
+                            <div id="collapse3_25" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_25">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text display-4">Scopri i nostri itinerari mozzafiato sul sito!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingFour">
+                                <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse4_25" aria-expanded="false" aria-controls="collapse4">
+                                    <h4 class="panel-title-edit mbr-fonts-style display-5">
+                                        <strong>Come funziona il bike-sharing?</strong>
+                                    </h4>
+                                    <span class="sign mbr-iconfont mobi-mbri-plus mobi-mbri"></span>
+                                </a>
+                            </div>
+                            <div id="collapse4_25" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingFour" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_25">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text display-4">Basta registrarsi e noleggiare una bici in un attimo!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingFive">
+                                <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse5_25" aria-expanded="false" aria-controls="collapse5">
+                                    <h4 class="panel-title-edit mbr-fonts-style display-5"><strong>Posso prenotare il posto a sedere?</strong></h4>
+                                    <span class="sign mbr-iconfont mobi-mbri-plus mobi-mbri"></span>
+                                </a>
+                            </div>
+                            <div id="collapse5_25" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingFive" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_25">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text display-4">Certo! scopri di più sulla nostra App</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="form01 immersem5 cid-uzf2mxvr6v" id="contact-form-1-uzf2mxvr6v">
+    
+
+    
+    
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <div class="content-wrapper">
+                    <div class="mbr-form" data-form-type="formoid">
+                        <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="k/jlWa7zpZoW4b5Rcr1Udr+16CMdHsTehk0iBZxjk8Efo2G7ZezDyYGIJTsaHC39xeLejvI47grD+Xq/HGi3Ll0pID25XvPT7W/U4TL2xpfwOIosg/OUjEm9MwzTAw8b">
+                            <div class="row">
+                                <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for
+                                    filling out the form!</div>
+                                <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12"> Oops...!
+                                    some problem!
+                                </div>
+                            </div>
+                            <div class="dragArea row">
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <h2 class="mbr-section-title mbr-fonts-style display-2"><strong>Contattaci Subito</strong></h2>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <p class="mbr-text mbr-fonts-style display-4">Siamo qui per aiutarti con qualsiasi domanda!</p>
+                                </div>
+                                <div data-for="name" class="col-lg-12 col-md-12 col-sm-12 form-group mb-3 mb-3 mb-3">
+                                    <label for="name-contact-form-1-uzf2mxvr6v" class="form-control-label mbr-fonts-style display-4">Il Tuo Nome</label>
+                                    <input type="text" name="name" data-form-field="name" class="form-control display-4" value="" id="name-contact-form-1-uzf2mxvr6v">
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 form-group mb-3 mb-3" data-for="text">
+                                    <label for="text-contact-form-1-uzf2mxvr6v" class="form-control-label mbr-fonts-style display-4">Email</label>
+                                    <input type="text" name="text" data-form-field="text" class="form-control display-7" value="" id="text-contact-form-1-uzf2mxvr6v">
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 form-group mb-3 mb-3" data-for="email">
+                                    <label for="email-contact-form-1-uzf2mxvr6v" class="form-control-label mbr-fonts-style display-4">Telefono</label>
+                                    <input type="email" name="email" data-form-field="email" class="form-control display-7" value="" id="email-contact-form-1-uzf2mxvr6v">
+                                </div>
+                                <div class="col mbr-section-btn"><button type="submit" class="btn btn-black display-4"> Send Now</button></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="footer01 immersem5 cid-uzf2mxw3so" once="footers" id="footer-1-uzf2mxw3so">
+    
+
+    
+    
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-lg-2">
+                <div class="title-wrapper">
+                    <h2 class="mbr-section-title mbr-fonts-style display-7">
+                        <strong>Regionale Sostenibile</strong>
+                    </h2>
+                    <p class="mbr-address mbr-fonts-style display-4">Rome Italy</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-2">
+                <div class="list-wrapper">
+                    <h3 class="mbr-list-title mbr-fonts-style display-7">
+                        <strong>Link Utili</strong>
+                    </h3>
+                    <ul class="list mbr-fonts-style display-4">
+                        <li class="item-wrap">Chi Siamo</li>
+                        <li class="item-wrap">Contatti</li>
+                        <li class="item-wrap">Servizi</li>
+                        <li class="item-wrap">FAQ</li>
+                        <li class="item-wrap">Blog</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-lg-2">
+                <div class="list-wrapper">
+                    <h3 class="mbr-list-title mbr-fonts-style display-7">
+                        <strong>Seguici Su</strong>
+                    </h3>
+                    <ul class="list mbr-fonts-style display-4">
+                        <li class="item-wrap">Instagram</li>
+                        <li class="item-wrap">Tik Tok</li>
+                        <li class="item-wrap">Facebook</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="content-wrapper">
+                    
+                    <p class="mbr-copy mbr-fonts-style display-4"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <script src="https://r.mobirisesite.com/1070437/assets/web/assets/jquery/jquery.min.js?rnd=1736298691393"></script>
+  <script src="https://r.mobirisesite.com/1070437/assets/bootstrap/js/bootstrap.bundle.min.js?rnd=1736298691393"></script>
+  <script src="https://r.mobirisesite.com/1070437/assets/smoothscroll/smooth-scroll.js?rnd=1736298691393"></script>
+  <script src="https://r.mobirisesite.com/1070437/assets/ytplayer/index.js?rnd=1736298691393"></script>
+  <script src="https://r.mobirisesite.com/1070437/assets/dropdown/js/navbar-dropdown.js?rnd=1736298691393"></script>
+  <script src="https://r.mobirisesite.com/1070437/assets/smart-cart/minicart.js?rnd=1736298691393"></script>
+  <script src="https://r.mobirisesite.com/1070437/assets/smart-cart/minicart-customizer.js?rnd=1736298691393"></script>
+  <script src="https://r.mobirisesite.com/1070437/assets/embla/embla.min.js?rnd=1736298691393"></script>
+  <script src="https://r.mobirisesite.com/1070437/assets/embla/script.js?rnd=1736298691393"></script>
+  <script src="https://r.mobirisesite.com/1070437/assets/mbr-switch-arrow/mbr-switch-arrow.js?rnd=1736298691393"></script>
+  <script src="https://r.mobirisesite.com/1070437/assets/theme/js/script.js?rnd=1736298691393"></script>
+  <script src="https://r.mobirisesite.com/1070437/assets/formoid.min.js?rnd=1736298691393"></script>
+  
+  
+  
+
+</body>
+</html>
